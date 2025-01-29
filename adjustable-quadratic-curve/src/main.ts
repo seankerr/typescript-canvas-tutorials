@@ -111,8 +111,6 @@ export class World {
         this.ctx.stroke();
 
         // end point to control point
-        this.ctx.lineWidth = 1;
-        this.ctx.strokeStyle = "#AAA";
         this.ctx.beginPath();
         this.ctx.setLineDash([10, 5]);
         this.ctx.moveTo(this.curve.endX, this.curve.endY);
